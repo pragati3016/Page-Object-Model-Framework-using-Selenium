@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-15T16:24:04 IST" name="Default suite" finished-at="2021-10-15T16:24:52 IST" duration-ms="48414">
+    <groups>
+    </groups>
+    <test started-at="2021-10-15T16:24:04 IST" name="Default test" finished-at="2021-10-15T16:24:52 IST" duration-ms="48414">
+      <class name="TestCases.MailTests">
+        <test-method signature="writeMailTest(java.util.Hashtable)[pri:0, instance:TestCases.MailTests@f79e]" started-at="2021-10-15T16:24:05 IST" name="writeMailTest" data-provider="rediffMailTestData" finished-at="2021-10-15T16:24:50 IST" duration-ms="45794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Subject=Hello There, Username=pragatipatil3016, Email ID=pragatipatil194@gmail.com, Password=Prag@3016}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMailTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCases.MailTests@f79e]" started-at="2021-10-15T16:24:50 IST" name="flushReports" finished-at="2021-10-15T16:24:52 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCases.MailTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
